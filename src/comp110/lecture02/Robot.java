@@ -7,22 +7,22 @@ package comp110.lecture02;
  */
 class Robot {
 
-  Maze _maze;
-
-  Robot(Maze maze) {
-    _maze = maze;
-  }
-
   void turnRight() {
     _maze.rotateMeClockwise();
   }
 
-  void moveForward(int numberOfSteps) {
+  void moveForward(int numberOfTiles) {
     int i = 0;
     while(i < numberOfSteps) {
       _maze.moveMeForward();
       i = i + 1;
     }
+  }
+
+  Maze _maze;
+
+  Robot(Maze maze) {
+    _maze = maze;
   }
  
 }
