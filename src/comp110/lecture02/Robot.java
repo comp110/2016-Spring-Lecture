@@ -13,7 +13,7 @@ class Robot {
 
   void moveForward(int numberOfTiles) {
     int i = 0;
-    while(i < numberOfSteps) {
+    while(i < numberOfTiles) {
       _maze.moveMeForward();
       i = i + 1;
     }
