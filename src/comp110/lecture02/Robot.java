@@ -19,6 +19,8 @@ class Robot {
     }
   }
 
+  // The following code is elided in class slides.
+
   Maze _maze;
 
   Robot(Maze maze) {
