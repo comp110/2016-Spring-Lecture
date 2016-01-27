@@ -11,7 +11,6 @@ class Calculator {
   }
 
   int multiply(int x, int y) {
-    System.out.println("multiply");
     return x * y;
   }
 
