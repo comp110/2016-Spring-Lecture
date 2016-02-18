@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="support/toolkit110-10.jar"/>
 	<classpathentry kind="lib" path="support/toolkit110-09.jar"/>
 	<classpathentry kind="lib" path="support/toolkit110.jar"/>
 	<classpathentry kind="output" path="bin"/>
