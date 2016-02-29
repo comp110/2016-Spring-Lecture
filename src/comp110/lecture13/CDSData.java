@@ -39,6 +39,7 @@ class CDSData {
     int count = 0;
     while (i < input.size()) {
       count++;
+      i++;
     }
     return count;
   }
