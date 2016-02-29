@@ -35,7 +35,12 @@ class CDSData {
   // Count Foods
   int count() {
     ArrayList<Food> input = _foods;
-    return input.size();
+    int i = 0;
+    int count = 0;
+    while (i < input.size()) {
+      count++;
+    }
+    return count;
   }
 
   // Sum Calories
@@ -59,17 +64,6 @@ class CDSData {
       i++;
     }
     return maxFound;
-  }
-
-  // Filter
-  ArrayList<Food> filter(ArrayList<Food> input) {
-    ArrayList<Food> filtered = new ArrayList<Food>();
-    int i = 0;
-    while (i < input.size()) {
-      // TODO
-      i++;
-    }
-    return filtered;
   }
 
 }
