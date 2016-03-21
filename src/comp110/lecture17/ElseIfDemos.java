@@ -18,16 +18,24 @@ public class ElseIfDemos {
     String lastName;
     if (firstName.equals("Brice")) {
       lastName = "Johnson";
-    } else if (firstName.equals("Marcus")) {
-      lastName = "Paige";
-    } else if (firstName.equals("Nate")) {
-      lastName = "Britt";
-    } else if (firstName.equals("Kennedy")) {
-      lastName = "Meeks";
-    } else if (firstName.equals("Justin")) {
-      lastName = "Jackson";
     } else {
-      lastName = "???";
+      if (firstName.equals("Marcus")) {
+        lastName = "Paige";
+      } else {
+        if (firstName.equals("Nate")) {
+          lastName = "Britt";
+        } else {
+          if (firstName.equals("Kennedy")) {
+            lastName = "Meeks";
+          } else {
+            if (firstName.equals("Justin")) {
+              lastName = "Jackson";
+            } else {
+              lastName = "???";
+            }
+          }
+        }
+      }
     }
     return firstName + " " + lastName;
   }
