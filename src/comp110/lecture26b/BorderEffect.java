@@ -31,7 +31,7 @@ public class BorderEffect implements Effect {
     for (int x = 0; x < copy.getWidth(); x++) {
       for (int y = 0; y < copy.getHeight(); y++) {
 
-        copy.setPixel(x, y, _borderColor);
+        // copy.setPixel(x, y, _borderColor);
 
       }
     }
