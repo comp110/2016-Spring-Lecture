@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="support/toolkit110-10.jar"/>
 	<classpathentry kind="lib" path="support/toolkit110-09.jar"/>
 	<classpathentry kind="lib" path="support/toolkit110.jar"/>
+	<classpathentry kind="lib" path="support/instagram-ui.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
