@@ -24,7 +24,8 @@ public class ReviewGame {
       ReviewGame.generateWordSet(list, input);
     }
 
-    System.out.println("\nThanks for playing! Kick ass on the final.");
+    System.out.println(
+        "\nThanks for playing! Rock the final! You got this. You smart. You *very* smart.");
   }
 
   private static void generateWordSet(WordList list, int n) {
